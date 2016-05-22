@@ -2,7 +2,7 @@ function fis = genfisFR2()
 a = newfis('tipper', 'sugeno');
 a = addvar(a,'input','service',[0 10]); 
 a = addmf(a,'input',1,'poor','gaussmf',[1.5 0]);
-y
+a = addmf(a,'input',1,'good','gaussmf',[1.5 5]);
 a = addmf(a,'input',1,'excellent','gaussmf',[1.5 10]);
 a = addvar(a,'input','food',[0 10]);
 a = addmf(a,'input',2,'rancid','trapmf',[-2 0 1 3]);
