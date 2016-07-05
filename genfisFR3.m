@@ -1,4 +1,4 @@
-function fis = genfisFR2()
+function fis = genfisFR3()
 a = newfis('tipper', 'sugeno');
 a = addvar(a,'input','service',[0 10]); 
 a = addmf(a,'input',1,'poor','gaussmf',[1.5 0]);
