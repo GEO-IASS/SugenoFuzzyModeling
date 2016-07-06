@@ -1,6 +1,6 @@
 function fis = genfisFR3()
 a = newfis('tipper', 'sugeno');
-a = addvar(a,'input','service',[0 10]); 
+a = addvar(a,'input','service',[0 10]);
 a = addmf(a,'input',1,'poor','gaussmf',[1.5 0]);
 a = addmf(a,'input',1,'good','gaussmf',[1.5 5]);
 a = addmf(a,'input',1,'excellent','gaussmf',[1.5 10]);
