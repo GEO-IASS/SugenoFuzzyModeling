@@ -17,6 +17,9 @@ ruleList = [1 1 1 1 2;
             2 0 2 1 1;
             3 2 3 1 2];
 fis = addrule(fis,ruleList);
-
+ruleview(fis);
+%figure
+gensurf(fis);
+fuzzy(fis);
 end
 
